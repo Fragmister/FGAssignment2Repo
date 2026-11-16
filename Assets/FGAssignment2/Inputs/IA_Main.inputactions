@@ -1,0 +1,48 @@
+{
+    "version": 1,
+    "name": "IA_Main",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "57a89262-860c-4da2-8cb9-86b8aef9d87c",
+            "actions": [
+                {
+                    "name": "DebugInput",
+                    "type": "Button",
+                    "id": "0e1b70eb-b447-4b70-9344-cb66b1c48d4f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ccd98e5b-6180-4a10-a6ba-a222d4c5a525",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugInput",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "keyboard",
+            "bindingGroup": "keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
